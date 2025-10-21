@@ -30,17 +30,17 @@ const Hero = () => {
           <h1 className="text-5xl md:text-7xl font-bold mb-6 font-['Space_Grotesk']">
             Hi, I'm{" "}
             <span className="bg-gradient-primary bg-clip-text text-transparent">
-              Your Name
+              Rayanagouda Hittlamani
             </span>
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-4">
-            Full Stack Developer
+            MCA Student | Cybersecurity Enthusiast | Developer
           </p>
           
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Crafting elegant solutions to complex problems. Passionate about building 
-            scalable applications with modern technologies.
+            Passionate about cybersecurity and web development. AWS certified professional with 
+            hands-on experience in encryption, secure application design, and full-stack development.
           </p>
           
           <div className="flex flex-wrap gap-4 justify-center mb-12">
@@ -62,15 +62,7 @@ const Hero = () => {
           
           <div className="flex gap-4 justify-center">
             <a 
-              href="https://github.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="p-3 rounded-full bg-card hover:bg-primary transition-colors border border-border"
-            >
-              <Github className="w-5 h-5" />
-            </a>
-            <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/rayanagouda-hittlamani-9b2a61293/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-card hover:bg-primary transition-colors border border-border"
@@ -78,7 +70,7 @@ const Hero = () => {
               <Linkedin className="w-5 h-5" />
             </a>
             <a 
-              href="mailto:your.email@example.com"
+              href="mailto:rayavh.1903@gmail.com"
               className="p-3 rounded-full bg-card hover:bg-primary transition-colors border border-border"
             >
               <Mail className="w-5 h-5" />

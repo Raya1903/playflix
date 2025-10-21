@@ -5,18 +5,18 @@ const About = () => {
   const highlights = [
     {
       icon: Code2,
-      title: "Clean Code",
-      description: "Writing maintainable, scalable, and efficient code following best practices",
+      title: "Cybersecurity Focus",
+      description: "Specialized in encryption, secure design patterns, and security implementation",
     },
     {
       icon: Palette,
-      title: "Modern Design",
-      description: "Creating beautiful, intuitive interfaces with attention to detail",
+      title: "Full-Stack Development",
+      description: "Building complete applications from backend logic to responsive frontends",
     },
     {
       icon: Rocket,
-      title: "Fast Delivery",
-      description: "Delivering high-quality solutions within deadlines",
+      title: "Cloud Certified",
+      description: "AWS certified professional ready to deploy scalable cloud solutions",
     },
   ];
 
@@ -29,8 +29,9 @@ const About = () => {
           </h2>
           
           <p className="text-lg text-muted-foreground text-center mb-12 max-w-2xl mx-auto">
-            I'm a passionate developer with expertise in building modern web applications. 
-            I love turning ideas into reality through clean code and thoughtful design.
+            I'm currently pursuing my MCA at KLS GIT College Belgaum with a strong foundation in 
+            Computer Applications (BCA, CGPA: 7.47). I specialize in cybersecurity, cloud technologies, 
+            and web development, with AWS certification and hands-on internship experience.
           </p>
           
           <div className="grid md:grid-cols-3 gap-6">

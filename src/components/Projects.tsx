@@ -8,28 +8,28 @@ import project3 from "@/assets/project3.jpg";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with cart management, payment integration, and admin dashboard. Built with React, Node.js, and MongoDB.",
+      title: "Cybersecurity Encryption System",
+      description: "Comprehensive cybersecurity project focused on encryption and secure application design using Java Swing. Completed during 4-month internship at Athreya Technologies, Hubli under the guidance of industry experts.",
       image: project1,
-      tags: ["React", "Node.js", "MongoDB", "Stripe"],
+      tags: ["Java", "Java Swing", "Encryption", "Security Design"],
       github: "https://github.com",
-      demo: "https://demo.com",
+      demo: null,
     },
     {
-      title: "Task Management App",
-      description: "Collaborative task management tool with real-time updates, drag-and-drop interface, and team features. Uses Firebase for backend.",
+      title: "Calculator Application",
+      description: "Feature-rich calculator application built with Python packages, demonstrating strong programming fundamentals and clean code architecture with a user-friendly interface.",
       image: project2,
-      tags: ["React", "TypeScript", "Firebase", "Tailwind"],
+      tags: ["Python", "Package Development", "GUI"],
       github: "https://github.com",
-      demo: "https://demo.com",
+      demo: null,
     },
     {
-      title: "Weather Dashboard",
-      description: "Beautiful weather application with location-based forecasts, interactive maps, and detailed weather metrics. Integrated with OpenWeather API.",
+      title: "IPL Web Application",
+      description: "Interactive web application for Indian Premier League statistics and information. Built with modern web technologies featuring responsive design and dynamic content.",
       image: project3,
-      tags: ["Next.js", "API Integration", "Charts"],
+      tags: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
       github: "https://github.com",
-      demo: "https://demo.com",
+      demo: null,
     },
   ];
 
@@ -80,27 +80,31 @@ const Projects = () => {
                   </div>
                   
                   <div className="flex gap-2">
-                    <Button 
-                      size="sm" 
-                      variant="secondary"
-                      className="flex-1"
-                      asChild
-                    >
-                      <a href={project.github} target="_blank" rel="noopener noreferrer">
-                        <Github className="w-4 h-4 mr-2" />
-                        Code
-                      </a>
-                    </Button>
-                    <Button 
-                      size="sm"
-                      className="flex-1 bg-gradient-primary hover:shadow-glow"
-                      asChild
-                    >
-                      <a href={project.demo} target="_blank" rel="noopener noreferrer">
-                        <ExternalLink className="w-4 h-4 mr-2" />
-                        Demo
-                      </a>
-                    </Button>
+                    {project.github && (
+                      <Button 
+                        size="sm" 
+                        variant="secondary"
+                        className="flex-1"
+                        asChild
+                      >
+                        <a href={project.github} target="_blank" rel="noopener noreferrer">
+                          <Github className="w-4 h-4 mr-2" />
+                          Code
+                        </a>
+                      </Button>
+                    )}
+                    {project.demo && (
+                      <Button 
+                        size="sm"
+                        className="flex-1 bg-gradient-primary hover:shadow-glow"
+                        asChild
+                      >
+                        <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                          <ExternalLink className="w-4 h-4 mr-2" />
+                          Demo
+                        </a>
+                      </Button>
+                    )}
                   </div>
                 </div>
               </Card>

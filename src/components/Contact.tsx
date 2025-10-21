@@ -7,33 +7,28 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "your.email@example.com",
-      href: "mailto:your.email@example.com",
+      value: "rayavh.1903@gmail.com",
+      href: "mailto:rayavh.1903@gmail.com",
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+91 1234567890",
-      href: "tel:+911234567890",
+      value: "+91 7019976910",
+      href: "tel:+917019976910",
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "Your City, India",
+      value: "Siddapur, Karnataka, India",
       href: null,
     },
   ];
 
   const socialLinks = [
     {
-      icon: Github,
-      label: "GitHub",
-      href: "https://github.com",
-    },
-    {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/rayanagouda-hittlamani-9b2a61293/",
     },
   ];
 
@@ -102,7 +97,7 @@ const Contact = () => {
               className="bg-gradient-primary hover:shadow-glow"
               asChild
             >
-              <a href="mailto:your.email@example.com">
+              <a href="mailto:rayavh.1903@gmail.com">
                 Send me an email
               </a>
             </Button>
