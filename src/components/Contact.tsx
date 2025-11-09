@@ -30,6 +30,11 @@ const Contact = () => {
       label: "LinkedIn",
       href: "https://www.linkedin.com/in/rayanagouda-hittlamani-9b2a61293/",
     },
+    {
+      icon: Github,
+      label: "GitHub",
+      href: "https://github.com/Raya1903",
+    },
   ];
 
   return (

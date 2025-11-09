@@ -70,6 +70,14 @@ const Hero = () => {
               <Linkedin className="w-5 h-5" />
             </a>
             <a 
+              href="https://github.com/Raya1903" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="p-3 rounded-full bg-card hover:bg-primary transition-colors border border-border"
+            >
+              <Github className="w-5 h-5" />
+            </a>
+            <a 
               href="mailto:rayavh.1903@gmail.com"
               className="p-3 rounded-full bg-card hover:bg-primary transition-colors border border-border"
             >
