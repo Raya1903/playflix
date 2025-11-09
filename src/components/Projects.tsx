@@ -12,7 +12,7 @@ const Projects = () => {
       description: "Comprehensive cybersecurity project focused on encryption and secure application design using Java Swing. Completed during 4-month internship at Athreya Technologies, Hubli under the guidance of industry experts.",
       image: project1,
       tags: ["Java", "Java Swing", "Encryption", "Security Design"],
-      github: "https://github.com",
+      github: "https://github.com/Raya1903/cybersecurity-encryption-system",
       demo: null,
     },
     {
@@ -20,7 +20,7 @@ const Projects = () => {
       description: "Feature-rich calculator application built with Python packages, demonstrating strong programming fundamentals and clean code architecture with a user-friendly interface.",
       image: project2,
       tags: ["Python", "Package Development", "GUI"],
-      github: "https://github.com",
+      github: "https://github.com/Raya1903/calculator-application",
       demo: null,
     },
     {
@@ -28,7 +28,7 @@ const Projects = () => {
       description: "Interactive web application for Indian Premier League statistics and information. Built with modern web technologies featuring responsive design and dynamic content.",
       image: project3,
       tags: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
-      github: "https://github.com",
+      github: "https://github.com/Raya1903/ipl-web-application",
       demo: null,
     },
   ];
