@@ -29,7 +29,7 @@ const Projects = () => {
       image: project3,
       tags: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
       github: "https://github.com/Raya1903/ipl-web-application",
-      demo: null,
+      demo: "/ipl-demo",
     },
   ];
 
