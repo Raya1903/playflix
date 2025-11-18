@@ -21,7 +21,7 @@ const Projects = () => {
       image: project2,
       tags: ["Python", "Package Development", "GUI"],
       github: "https://github.com/Raya1903/calculator-application",
-      demo: null,
+      demo: "/calculator-demo",
     },
     {
       title: "IPL Web Application",
