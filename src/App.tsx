@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import IplDemo from "./pages/IplDemo";
 import CalculatorDemo from "./pages/CalculatorDemo";
 import CybersecurityDemo from "./pages/CybersecurityDemo";
+import NetflixDemo from "./pages/NetflixDemo";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -22,6 +23,7 @@ const App = () => (
           <Route path="/ipl-demo" element={<IplDemo />} />
           <Route path="/calculator-demo" element={<CalculatorDemo />} />
           <Route path="/cybersecurity-demo" element={<CybersecurityDemo />} />
+          <Route path="/netflix-demo" element={<NetflixDemo />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
